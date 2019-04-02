@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>刘志涛与周旭敏的前端大作业</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">   
+<link href="css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="css/lightbox.css"> 
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> 
+<script src="js/jquery-2.2.3.min.js"></script>  
+<link href="http://fonts.googleapis.com/css?family=Trochut:400,400i,700" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"> 
+	<!-- banner -->
+	<div id="home" class="w3ls-banner w3-agilefireworks jarallax"> 
+		<!-- header -->
+		<div class="header-w3layouts"> 
+			<!-- Navigation -->
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header page-scroll">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+							<span class="sr-only">Let's Party</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<h1><a class="navbar-brand" href="index.html">Let's <span>Party</span></a></h1>
+					</div> 
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navbar-ex1-collapse">
+						<ul class="nav navbar-nav navbar-right cl-effect-15">
+							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+							<li><a class="page-scroll" href="#home" data-hover="首页">首页</a></li> 
+							<li><a class="page-scroll" href="#services" data-hover="节目">节目</a></li>
+							<li><a class="page-scroll" href="#staff" data-hover="人员">人员</a></li>
+							<li><a class="page-scroll" href="#gallery" data-hover="相册">相册</a></li>
+							<li><a class="page-scroll" href="#prices" data-hover="费用">费用</a></li>
+							<li><a class="page-scroll" href="#contact" data-hover="联系我们">联系我们</a></li>
+							<li class="w3ls-navlog"><a class="page-scroll" href="#myModal2" data-toggle="modal" data-hover="登录">登录</a></li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container -->
+			</nav>  
+		</div>	
+		<!-- //header -->
+		<!-- banner-text -->
+		<div class="banner-text"> 
+			<h2>Happy New Year！</h2>
+			<p>刘志涛&周旭敏诚挚地邀请你参加际銮书院01236小窝跨年晚会</p>
+			<!-- timer -->
+			<div class="agileits-timer"> 
+				<div class="clock">
+					<div class="column days">
+						<div class="timer" id="days"></div>
+						<div class="text">天</div>
+					</div>
+					<div class="timer days"></div>
+					<div class="column">
+						<div class="timer" id="hours"></div>
+						<div class="text">小时</div>
+					</div>
+					<div class="timer"></div>
+					<div class="column">
+						<div class="timer" id="minutes"></div>
+						<div class="text">分钟</div>
+					</div>
+					<div class="timer"></div>
+					<div class="column">
+						<div class="timer" id="seconds"></div>
+						<div class="text">秒</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>	 
+			</div>
+			<!-- //timer --> 
+			<a href="#small-dialog" class="wthree-btn popup-with-zoom-anim">获取你的入场券</a> 
+		</div> 
+		<!-- //banner-text -->   
+	</div>	
+	<!-- //banner --> 
+	<!-- welcome -->
+	<div class="welcome">    
+		<div class="welcome-agileinfo">
+			<div class="col-sm-6 col-xs-6 welcome-w3left">
+				<div class="col-xs-3 welcome-w3limg">
+					<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
+				</div>
+				<div class="col-xs-9 welcome-w3ltext"> 
+					<p>时间</p>
+					<h4>31st Jan 2019</h4>
+					<h6>Starting at : 7:00 pm </h6>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-sm-6 col-xs-6 welcome-w3right">
+				<div class="col-xs-9 welcome-w3ltext"> 
+					<p>地点</p>
+					<h4>01236小窝</h4>
+					<h6>南昌大学&nbsp;际銮书院</h6>
+				</div>
+				<div class="col-xs-3 welcome-w3limg">
+					<i class="fa fa-street-view" aria-hidden="true"></i>
+				</div> 
+				<div class="clearfix"> </div>
+			</div> 
+			<div class="clearfix"> </div>
+		</div> 
+	</div>
+	<!-- //welcome -->
+	<!-- services -->
+	<div id="services" class="services">
+		<div class="container">  
+			<h3 class="w3stitle">晚会 <span> 安排</span></h3>  
+			<div class="services-w3ls-row">
+				<div class="col-md-3 col-sm-3 col-xs-6 services-grid agileits-w3layouts">
+					<span class="glyphicon glyphicon-cutlery effect-1" aria-hidden="true"></span>
+					<h5>烤&nbsp;肉</h5>
+					<p>享受舌尖上的美味.</p>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-6 services-grid agileits-w3layouts">
+					<span class="glyphicon glyphicon-gift effect-1" aria-hidden="true"></span>
+					<h5>真心话大冒险</h5>
+					<p>抖出你的小秘密.</p>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-6 services-grid agileits-w3layouts">
+					<span class="glyphicon glyphicon-music effect-1" aria-hidden="true"></span>
+					<h5>尽情欢唱</h5>
+					<p>谁将会是236下一个麦霸</p>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-6 services-grid">
+					<span class="glyphicon glyphicon-phone effect-1" aria-hidden="true"></span>
+					<h5>组团开黑</h5>
+					<p>谁能carry全场</p>
+				</div> 
+				<div class="clearfix"> </div>
+			</div>  
+		</div>
+	</div>
+	<!-- //services -->
+	<!-- video -->
+	<div class="video-agileits jarallax">
+		<div class="video">
+			<div class="container"> 
+				<div class="col-md-6 video-left">
+					<h3 class="w3stitle w3stitle1">关于<span> 我们</span></h3>  
+					<h4>我们寝室有一个优雅的名字叫“旭柳晨露” </h4> 
+					<p>我们宿舍非物有天华，但也算是人杰地灵之地，宿舍可谓是人才辈出也，有能歌善舞者，通晓音律者，通晓天文地理者，撰文如行云流水者，口若悬河者，也有交友甚广，消息灵通之人。</p>
+				</div> 
+				<div class="col-md-6 video-right"> 
+					<a class="play-icon popup-with-zoom-anim" href="#small-dialog2">
+						<span class="fa fa-play-circle-o"> </span>
+					</a> 
+					<div id="small-dialog2" class="mfp-hide">
+						<div class="pop_up w3-agile">
+							<video id="shipin" src="images/寝室抖音视频.mp4" controls="controls" width="300px" height="400px"></video>
+						</div> 
+					</div> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //video -->
+	<!-- team -->
+	<div id="staff" class="team">  
+		<div class="container">  
+			<h3 class="w3stitle">寝室 <span> 成员</span></h3>  
+			<div class="team-agileinfo w3ls-team-row">  
+				<div class="col-md-3 col-sm-3 col-xs-6 team-wthree-grids">   
+					<div class="w3ls-effect11">
+						<img src="images/周旭敏.jpg" alt="img">
+						<div class="overlay">   
+							<h5>周旭敏</h5>
+							<p>236单身的考研咸鱼</p>
+						</div>	 
+					</div>    
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-6 team-wthree-grids">   
+					<div class="w3ls-effect11">
+						<img src="images/刘志涛.jpg" alt="img"> 
+						<div class="overlay">   
+							<h5>刘志涛</h5>
+							<p>236最六的刘咸鱼</p>
+						</div>
+					</div>    
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-6 team-wthree-grids">   
+					<div class="w3ls-effect11">
+						<img src="images/陈李玉.jpg" alt="img"> 
+						<div class="overlay"> 
+							<h5> 陈李玉</h5>
+							<p>咸鱼都被我吃了</p>
+						</div>
+					</div>    
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-6 team-wthree-grids">   
+					<div class="w3ls-effect11">
+						<img src="images/陆非凡.jpg" alt="img"> 
+						<div class="overlay"> 
+							<h5>陆非凡</h5>
+							<p>崛起的非单身咸鱼</p>
+						</div>
+					</div>    
+				</div>
+				<div class="clearfix"> </div> 
+			</div>
+		</div>
+	</div>
+	<!-- //team -->  
+	<!-- gallery -->
+	<div id="gallery" class="gallery">
+		<div class="container"> 
+			<h3 class="w3stitle">我们的 <span> 相册</span></h3>  
+			<div class="gallery-w3lsrow">
+				<div class="col-sm-3 col-xs-4 gallery-grids">
+					<div class="w3ls-hover">
+						<a href="images/sushe1.jpg" data-lightbox="example-set" data-title="相亲相爱一家人">
+							<img src="images/sushe1.jpg" class="img-responsive zoom-img" alt=""/>
+							<div class="view-caption">
+								<h5>寝室合影</h5>
+								<span class="glyphicon glyphicon-search"></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-4 gallery-grids">
+					<div class="w3ls-hover">
+						<a href="images/sushe2.jpg" data-lightbox="example-set" data-title="你的梦想是否只是说说而已">
+							<img src="images/sushe2.jpg" class="img-responsive zoom-img" alt=""/>
+							<div class="view-caption">
+								<h5>励志标语</h5>
+								<span class="glyphicon glyphicon-search"></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-4 gallery-grids">
+					<div class="w3ls-hover">
+						<a href="images/sushe3.jpg" data-lightbox="example-set" data-title="刘志涛的小窝">
+							<img src="images/sushe3.jpg" class="img-responsive zoom-img" alt=""/>
+							<div class="view-caption">
+								<h5>温暖小床</h5>
+								<span class="glyphicon glyphicon-search"></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-4 gallery-grids">
+					<div class="w3ls-hover">
+						<a href="images/sushe4.jpg" data-lightbox="example-set" data-title="陈李玉与陆非凡满满的基友情">
+							<img src="images/sushe4.jpg" class="img-responsive zoom-img" alt=""/>
+							<div class="view-caption">
+								<h5>基友情</h5>
+								<span class="glyphicon glyphicon-search"></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-4 gallery-grids">
+					<div class="w3ls-hover">
+						<a href="images/sushe5.jpg" data-lightbox="example-set" data-title="陆非凡在跟女朋友视频">
+							<img src="images/sushe5.jpg" class="img-responsive zoom-img" alt=""/>
+							<div class="view-caption">
+								<h5>寝室环境</h5>
+								<span class="glyphicon glyphicon-search"></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-4 gallery-grids">
+					<div class="w3ls-hover">
+						<a href="images/sushe6.jpg" data-lightbox="example-set" data-title="寝室大门">
+							<img src="images/sushe6.jpg" class="img-responsive zoom-img" alt=""/>
+							<div class="view-caption">
+								<h5>如家般温暖</h5>
+								<span class="glyphicon glyphicon-search"></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-4 gallery-grids">
+					<div class="w3ls-hover">
+						<a href="images/sushe7.jpg" data-lightbox="example-set" data-title="今天你努力了没有，别看人家，说的就是你">
+							<img src="images/sushe7.jpg" class="img-responsive zoom-img" alt=""/>
+							<div class="view-caption">
+								<h5>说的就是你</h5>
+								<span class="glyphicon glyphicon-search"></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-4 gallery-grids">
+					<div class="w3ls-hover">
+						<a href="images/sushe8.jpg" data-lightbox="example-set" data-title="刘志涛整洁干净的桌子">
+							<img src="images/sushe8.jpg" class="img-responsive zoom-img" alt=""/>
+							<div class="view-caption">
+								<h5>寝室一角</h5>
+								<span class="glyphicon glyphicon-search"></span>
+							</div>
+						</a>
+					</div>
+				</div>  
+				<div class="clearfix"> </div> 
+			</div>
+			<!--  light box js -->
+			<script src="js/lightbox-plus-jquery.min.js"> </script> 
+			<!-- //light box js--> 
+		</div> 
+	</div>
+	<!-- //gallery -->
+	<!-- prices -->
+	<div class="testimonials team">
+		<div class="container">
+			<h3 class="w3stitle">室友 <span> 名言</span></h3>     
+			<div class="flexslider">
+				<ul class="slides">
+					<li>
+						<div class="testi-three-grids"> 
+							<div class="testi-left">
+								<img src="images/周旭敏.jpg" alt=" " class="img-responsive" />
+							</div>
+							<div class="testi-right">
+								<p>Get busy living, or get busy dying</p><br/>
+								<h4>周旭敏	- <span>236单身的考研咸鱼</span></h4> 
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</li>
+					<li>
+						<div class="testi-three-grids"> 
+							<div class="testi-left">
+								<img src="images/刘志涛.jpg" alt=" " class="img-responsive" />
+							</div>
+							<div class="testi-right">
+								<p>Learn from yesterday,live for today,hope for tomorrow.</p></br>
+								<h4>刘志涛	- <span>236最六的刘咸鱼</span></h4> 
+							</div>
+							<div class="clearfix"> </div>
+						</div> 
+					</li>
+					<li>
+						<div class="testi-three-grids"> 
+							<div class="testi-left">
+								<img src="images/陈李玉.jpg" alt=" " class="img-responsive" />
+							</div>
+							<div class="testi-right">
+								<p>把每一天当作生命的最后一天 </p><br/>
+								<h4>陈李玉	- <span>咸鱼都被我吃了</span></h4> 
+							</div>
+							<div class="clearfix"> </div>
+						</div> 
+					</li>
+					<li>
+						<div class="testi-three-grids"> 
+							<div class="testi-left">
+								<img src="images/陆非凡.jpg" alt=" " class="img-responsive" />
+							</div>
+							<div class="testi-right">
+								<p>Fuck the world if you are rich,otherwise fuck yourself.</p></br>
+								<h4>陆非凡	- <span>崛起的非单身咸鱼</span></h4> 
+							</div>
+							<div class="clearfix"> </div>
+						</div> 
+					</li>
+				</ul>
+			</div> 
+			<!-- FlexSlider js -->
+			<script defer src="js/jquery.flexslider.js"></script>
+			<script type="text/javascript">
+				$(window).load(function(){
+				  $('.flexslider').flexslider({
+					animation: "slide",
+					start: function(slider){
+					  $('body').removeClass('loading');
+					}
+				  });
+				});
+			</script>
+			<!-- //FlexSlider js -->
+		</div>
+	</div>
+	
+	<div id="prices" class="prices w3-agilefireworks jarallax">
+		<div class="pricesw3-agileits">
+			<div class="container"> 
+				<h3 class="w3stitle w3stitle1">晚会<span> 费用</span></h3><br/>  
+				<h5 class="w3stitle w3stitle1">此晚会由刘志涛与周旭敏大款共同赞助，为避免资源浪费，故对每人收取少量费用，晚会后统一退还,谢谢大家支持！</h5>  
+				<div class="prices-agileinfo">
+					<div class="col-sm-3 col-xs-6 price-w3lgrids">
+						<div class="pricing pricing-two">
+							<div class="pricing-top top-two">
+								<h3>情侣</h3>
+								<p>&yen;5.20</p>
+							</div>
+							<div class="pricing-bottom"> 
+								<p>情侣装</p> 
+								<p>晚服</p> 
+								<p>荧光棒</p> 
+								<p>爱情卡片</p> 
+								<p class="w3agile">新年寄语</p> 
+								<div class="agileits-buy">
+									<a class="popup-with-zoom-anim" href="#small-dialog">预&nbsp;定</a>
+								</div>
+							</div>
+						</div>  
+					</div>
+					<div class="col-sm-3 col-xs-6 price-w3lgrids">
+						<div class="pricing">
+							<div class="pricing-top">
+								<h3>单身</h3>
+								<p>&yen;11.11</p>
+							</div>
+							<div class="pricing-bottom"> 
+								<p>晚服</p> 
+								<p>荧光棒</p> 
+								<p>新年寄语</p> 
+								<p>CD一张</p> 
+								<p>纪念U盘</p>  
+								<div class="agileits-buy">
+									<a class="popup-with-zoom-anim" href="#small-dialog">预&nbsp;定</a>
+								</div>
+							</div>
+						</div>  
+					</div>
+					<div class="col-sm-3 col-xs-6 price-w3lgrids">
+						<div class="pricing pricing-three">
+							<div class="pricing-top top-three">
+								<h3>基友</h3>
+								<p>&yen;6.66</p>
+							</div>
+							<div class="pricing-bottom wthree"> 
+								<p>晚服</p> 
+								<p>皮肤一款</p> 
+								<p>新年寄语</p> 
+								<p>CD一张</p> 
+								<p>纪念U盘</p> 
+								<div class="agileits-buy">
+									<a class="popup-with-zoom-anim" href="#small-dialog">预&nbsp;定</a>
+								</div>
+							</div>
+						</div>  
+					</div> 
+					<div class="col-sm-3 col-xs-6 price-w3lgrids">
+						<div class="pricing pricing-four">
+							<div class="pricing-top top-four">
+								<h3>女神</h3>
+								<p>&yen;free</p>
+							</div>
+							<div class="pricing-bottom w3ls"> 
+								<p>晚服</p> 
+								<p>告白卡片</p>  
+								<p>特制CD</p> 
+								<p class="w3agile agileits">纪念U盘</p>  
+								<p>化妆品一套</p> 
+								<div class="agileits-buy">
+									<a class="popup-with-zoom-anim" href="#small-dialog">预&nbsp;定</a>
+								</div>
+							</div>
+						</div>  
+					</div> 
+					<div class="clearfix"> </div>  
+				</div> 
+			</div> 
+		</div>
+	</div>
+	<!-- //prices -->
+	<!-- testimonials -->
+
+	<!-- //subscribe -->
+	<!-- contact -->
+	<div id="contact" class="contact">
+		<div class="container"> 
+			<h3 class="w3stitle">联系<span>我们</span></h3>
+			<div class="contact-row agileits-w3layouts">  
+				<div class="col-md-6 col-sm-6 contact-w3lsleft">
+					<div class="contact-grid agileits">
+						<h4>写信</h4>
+						<form action="#" method="post"> 
+							<input type="text" name="Name" placeholder="姓名" required="">
+							<input type="email" name="Email" placeholder="邮箱" required=""> 
+							<input type="text" name="Phone Number" placeholder="电话号码" required="">
+							<textarea name="Message" placeholder="在此处输入消息" required></textarea>
+							<input type="submit" value="提交" >
+						</form> 
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 contact-w3lsright">
+					<h6><span>欢迎骚扰我们诉说衷肠！</span></h6>
+					<div class="address-row">
+						<div class="col-xs-2 address-left">
+							<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+						</div>
+						<div class="col-xs-10 address-right">
+							<h5>参观</h5>
+							<p>江西省，南昌大学，际銮书院，01236</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="address-row w3-agileits">
+						<div class="col-xs-2 address-left">
+							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						</div>
+						<div class="col-xs-10 address-right">
+							<h5>发邮件</h5>
+							<p><a href="mailto:info@example.com"> 8000116021@email.ncu.edu.cn</a></p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="address-row">
+						<div class="col-xs-2 address-left">
+							<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+						</div>
+						<div class="col-xs-10 address-right">
+							<h5>电话</h5>
+							<p>15180451248</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>  
+					<!-- map -->
+					<div class="map agileits">
+						<iframe src=""></iframe>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>	
+		</div>	
+	</div>
+	<!-- //contact --> 
+	<!-- features -->
+	<div class="features">
+		<div class="container">   
+			<div class="wthree-features-row">
+				<div class="col-md-3 col-xs-6 features-w3grid">
+					<div class="col-xs-4 features-w3lleft">
+						<i class="fa fa-map-marker" aria-hidden="true"></i>
+					</div>
+					<div class="col-xs-8 features-w3lright"> 
+						<p>地点</p>
+						<h4>江西, 南昌</h4>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-3 col-xs-6 features-w3grid">
+					<div class="col-xs-4 features-w3lleft">
+						<i class="fa fa-ticket" aria-hidden="true"></i>
+					</div>
+					<div class="col-xs-8 features-w3lright"> 
+						<p>预留票数</p>
+						<h4>50&nbsp;张</h4>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-3 col-xs-6 features-w3grid">
+					<div class="col-xs-4 features-w3lleft">
+						<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
+					</div>
+					<div class="col-xs-8 features-w3lright"> 
+						<p>时间</p>
+						<h4>2019.01.31</h4>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-3 col-xs-6 features-w3grid">
+					<div class="col-xs-4 features-w3lleft">
+						<i class="fa fa-qq" aria-hidden="true"></i> 
+					</div>
+					<div class="col-xs-8 features-w3lright"> 
+						<p>QQ</p>
+						<h4>2260947377</h4>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //features -->
+	<!-- copy rights start here -->
+	<div class="copyw3-agile">
+		<div class="container"> 
+			<p>Copyright &copy; 2018.刘志涛&周旭敏 All rights reserved.</p>
+		</div>
+	</div>
+	<!-- //copy right end here --> 
+	<!-- pop-up-grid -->
+	<div id="small-dialog" class="mfp-hide">
+		<div class="pop_up w3-agile">
+			<div class="payment-online-form-left">
+				<form action="#" method="post"> 
+					<h4>账户信息</h4>
+					<ul>
+						<li><input class="text-box-dark" placeholder="姓名" type="text" required=""></li>
+						<li><input class="text-box-dark" placeholder="QQ" type="text" required=""></li>
+					</ul>
+					<ul>
+						<li><input class="text-box-dark" placeholder="邮箱" type="email" required=""></li>
+						<li><input class="text-box-dark" placeholder="电话号码" type="text" required=""></li> 
+					</ul> 
+					<ul>  
+						<li>
+							<label>申请票数</label>
+							<select class="form-control">
+								<option value="1">1 张</option>
+								<option value="2">2 张</option>
+								<option value="3">3 张</option>
+								<option value="4">4 张</option>
+								<option value="5">5 张</option>
+								<option value="6">更多</option>
+							</select> 
+						</li>
+						<li>
+							<label>类别</label>
+							<select class="form-control"> 
+								<option value="1">情侣</option>
+								<option value="2">单身</option>
+								<option value="3">基友</option>
+								<option value="4">女神</option> 
+							</select>
+						</li> 
+					</ul>	
+					<ul> 
+						<li class="w3ls-address"><input class="text-box-dark" placeholder="地址" type="text" required=""></li> 
+					</ul>	
+					<div class="clearfix"> </div>
+					<h4>支付方式</h4> 
+					<ul class="payment-type w3-agile"> 
+						<li><span class="col_checkbox">
+							<input type="radio" name="payment-method" id="paypal" value="paypal"> 
+							<a class="visa" href="#"> </a>
+							</span>												
+						</li>
+						<li>
+							<span class="col_checkbox">
+								<input type="radio" name="payment-method" id="card" value="card" checked="">
+								<a class="paypal" href="#"> </a>
+							</span>
+						</li>  
+					</ul>
+					<div class="clearfix"> </div>
+					<ul>
+						<li><input class="text-box-dark" placeholder="银行卡号" type="text" required=""></li>
+						<li><input class="text-box-dark" placeholder="持卡人姓名" type="text" required=""></li>
+					</ul>
+					<ul>
+						<li><input class="text-box-dark" placeholder="截止日期" type="text" required=""></li>
+						<li><input class="text-box-dark" placeholder="安全代码" type="text" required=""></li>
+					</ul> 
+					<ul class="payment-sendbtns">
+						<li><input type="reset" value="重置"></li>
+						<li><input type="submit" value="提交"></li>
+					</ul>
+					<div class="clearfix"> </div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- //modal -->
+	<!-- modal -->
+	<div class="modal about-modal w3-agileits fade" id="myModal2" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div> 
+				<div class="modal-body login-page "><!-- login-page -->      
+					<div class="sap_tabs">
+						<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+							<ul class="resp-tabs-list">
+								<li class="resp-tab-item" aria-controls="tab_item-0"><span>登录</span></li>
+								<li class="resp-tab-item" aria-controls="tab_item-1"><span>注册</span></li> 
+							</ul>	 
+							<div class="clearfix"> </div>	
+							<div class="resp-tabs-container">
+								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+									<div class="agileits-login">
+										<form action="#" method="post">
+											<input type="text" class="email" name="Email" placeholder="邮箱" required=""/>
+											<input type="password" class="password" name="Password" placeholder="密码" required=""/>
+											<div class="wthree-text"> 
+												<ul> 
+													<li>
+														<label class="anim">
+															<input type="checkbox" class="checkbox">
+															<span> 记住我?</span> 
+														</label> 
+													</li>
+													<li> <a href="#">忘记密码?</a> </li>
+												</ul>
+												<div class="clearfix"> </div>
+											</div>  
+											<div class="w3ls-submit"> 
+												<input type="submit" value="登录">  	
+											</div>	
+										</form>
+									</div> 
+								</div>
+								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+									<div class="login-top sign-top">
+										<div class="agileits-login">
+											<form action="#" method="post">
+												<input type="text" name="Username" placeholder="用户名" required="">
+												<input type="text" class="email" name="Email" placeholder="邮箱" required=""/>
+												<input type="password" class="password" name="Password" placeholder="密码" required=""/>	
+												<label class="anim">
+													<input type="checkbox" class="checkbox">
+													<span> 我同意所有协议</span> 
+												</label> 
+												<div class="w3ls-submit"> 
+													<input class="register" type="submit" value="注册">  
+												</div>
+											</form> 
+										</div>  
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div class="clearfix"> </div>
+					</div>   
+				</div> <!-- //login-page -->
+			</div>
+		</div>
+	</div>
+	<!-- //modal -->  		 
+	<!-- fireworks scripts --> 
+	<script type="text/javascript" src="js/jquery.fireworks.js"></script>
+	<script>	
+		setTimeout(function() {
+			$('.w3-agilefireworks').fireworks();   
+		});
+	</script>
+	<!-- //fireworks scripts -->
+	<!-- timer scripts --> 
+	<script type="text/javascript" src=" js/moment.js"></script>
+	<script type="text/javascript" src=" js/moment-timezone-with-data.js"></script>
+	<script type="text/javascript" src="js/timer.js"></script>
+	<!-- //scripts -->  
+	<!-- jarallax -->
+	<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<!-- //jarallax --> 
+	<!-- ResponsiveTabs js -->
+	<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#horizontalTab').easyResponsiveTabs({
+				type: 'default', //Types: default, vertical, accordion           
+				width: 'auto', //auto or any width like 600px
+				fit: true   // 100% fit in a container
+			});
+		});
+	</script>
+	<!-- //ResponsiveTabs js --> 
+	<!-- Scrolling Nav JavaScript --> 
+    <script src="js/scrolling-nav.js"></script>  
+	<!-- //fixed-scroll-nav-js --> 
+	<!-- pop-up-box -->    
+	<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+	<script>
+		$(document).ready(function() {
+		$('.popup-with-zoom-anim').magnificPopup({
+			type: 'inline',
+			fixedContentPos: false,
+			fixedBgPos: true,
+			overflowY: 'auto',
+			closeBtnInside: true,
+			preloader: false,
+			midClick: true,
+			removalDelay: 300,
+			mainClass: 'my-mfp-zoom-in'
+		});															
+		});
+	</script> 
+	<!-- //pop-up-box -->
+	<!-- start-smooth-scrolling --> 
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>	
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+			
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+	<!-- //end-smooth-scrolling -->	 
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			    /*var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+    <script src="js/bootstrap.js"></script>
+    <script>document.getElementById("shipin").volume=0.1;</script>
+</body>
+</html>
